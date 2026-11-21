@@ -2,7 +2,7 @@
 
 Le dépôt serveur est [pedc86-gif/tantine](https://github.com/pedc86-gif/tantine). Il contient le serveur ASP.NET Core, le moteur commun, les données de cartes et les tests. Le déploiement sur Render est à créer par le propriétaire du compte.
 
-Le protocole en ligne est utilisé par le client MAUI Android historique. L’interface Godot PC actuelle reste locale et ne possède pas encore ce parcours réseau. Ce dépôt est un serveur HTTP, sans interface de jeu dans le navigateur. Aucune adresse Render provisoire n’est définie dans les clients : l’adresse réelle sera intégrée après création du service.
+Le protocole en ligne est utilisé par le client MAUI Android historique. L’interface Godot PC actuelle reste locale et ne possède pas encore ce parcours réseau. Ce dépôt est un serveur HTTP, sans interface de jeu dans le navigateur. Le service public est `https://merci-tantine.onrender.com` : cette adresse est définie par défaut dans le client MAUI Android 0.1.1 (code 2), sauf si une adresse personnalisée a déjà été enregistrée. Le délai réseau de 120 secondes permet le réveil de l’offre Free.
 
 ## Déploiement
 
@@ -10,7 +10,7 @@ Le protocole en ligne est utilisé par le client MAUI Android historique. L’in
 2. Dans Render, créer un Blueprint depuis ce dépôt, en utilisant `render.yaml`.
 3. Vérifier le plan **Free**, sans disque persistant et sans base de données. Le Blueprint ne crée aucun composant payant.
 4. Attendre la construction du Dockerfile et tester `https://VOTRE-SERVICE.onrender.com/health`.
-5. Sur Android, ouvrir « Paramètres du serveur » et saisir cette URL HTTPS, sans `/health`.
+5. Sur Android 0.1.1, cette URL est déjà renseignée par défaut. Pour utiliser un autre service ou remplacer une ancienne adresse personnalisée, ouvrir les paramètres du serveur et saisir l’URL HTTPS, sans `/health`.
 6. Créer une salle et communiquer son code à huit caractères aux autres joueurs. Ils choisissent « Rejoindre par code ». La partie commence quand tous les sièges humains sont attribués.
 
 Le conteneur écoute `PORT`, avec 10000 par défaut. Le Blueprint gratuit place les fichiers temporaires sous `/tmp/merci-tantine`. Le déploiement reste à une instance : les verrous de commandes sont locaux au processus. Une évolution multi-instance devra remplacer les fichiers par une base transactionnelle et des verrous distribués.
@@ -61,3 +61,5 @@ Les appels HTTP locaux servent aux tests du protocole. L’application Android d
 - Démarrage testé avec `PORT=18080`, différent du port de repli 10000, et volume persistant monté sur `/var/data` pour vérifier le mécanisme de reprise. Ce volume de test ne fait pas partie de l’offre Render Free.
 
 Ces vérifications sont locales. Le démarrage sur Render et l’accès HTTPS public restent à vérifier après création du service.
+
+Le service public fourni par le créateur a ensuite été vérifié le 21 novembre 2026 : `/health` retourne HTTP 200 et le protocole 1 ; les 17 échanges du test HTTP ont réussi via HTTPS (création/jonction de salle, authentification, confidentialité, refus hors tour, doublons, concurrence et reconnexion). Aucun redémarrage du service Render n’a été déclenché. L’essai du client sur téléphone reste distinct de ces contrôles.

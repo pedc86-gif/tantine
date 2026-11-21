@@ -10,7 +10,7 @@ Après déploiement, ouvrir `https://VOTRE-SERVICE.onrender.com/health` : la ré
 
 **Limites de l’offre gratuite :** mise en veille après 15 minutes sans requête, réveil pouvant prendre environ une minute et perte des salles/parties lors d’une mise en veille, d’un redémarrage Render ou d’un redéploiement. Les fichiers sont temporaires (`/tmp/merci-tantine`). Une coupure du client permet de reprendre tant que le serveur conserve ses fichiers. Les quotas gratuits Render s’appliquent ; voir [les conditions de l’offre Free](https://render.com/docs/free). Cette version convient aux essais, sans garantie de conservation des parties.
 
-Le client Godot PC actuel joue en local ; sa connexion au serveur reste à intégrer. Le protocole existant est utilisé par le client MAUI Android historique. Aucun client graphique ni adresse de serveur fictive ne sont publiés ici.
+Le service est disponible sur `https://merci-tantine.onrender.com` et `/health` répond avec le protocole 1. Les 17 contrôles HTTP ont réussi sur cette adresse publique. Elle est configurée par défaut dans le client MAUI Android 0.1.1 ; une adresse personnalisée existante reste prioritaire. Le client Godot PC actuel joue en local ; sa connexion au serveur reste à intégrer. Aucun client graphique n’est publié dans ce dépôt serveur.
 
 [Configuration manuelle et protocole détaillé](docs/RENDER.md).
 
