@@ -1,0 +1,13 @@
+**
+!Directory.Build.props
+!src/
+!src/MerciTantine.Core/
+!src/MerciTantine.Core/**
+!src/MerciTantine.Server/
+!src/MerciTantine.Server/**
+!data/
+!data/*.json
+**/bin/**
+**/obj/**
+**/RoomData/**
+**/Saves/**

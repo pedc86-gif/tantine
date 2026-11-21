@@ -1,0 +1,15 @@
+**/bin/
+**/obj/
+.vs/
+*.user
+*.save.json
+.tools/
+**/Saves/
+**/.godot/
+**/RoomData/
+artifacts/
+.env
+.env.*
+*.pfx
+*.p12
+*.key

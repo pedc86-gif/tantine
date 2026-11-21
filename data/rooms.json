@@ -1,0 +1,44 @@
+[
+  {
+    "Id": "salon",
+    "Name": "Grand salon",
+    "Risk": "",
+    "Secondary": "Paper",
+    "Weight": 1
+  },
+  {
+    "Id": "bureau",
+    "Name": "Bureau de Tantine",
+    "Risk": "",
+    "Secondary": "Paper",
+    "Weight": 1
+  },
+  {
+    "Id": "chambre",
+    "Name": "Chambre de Tantine",
+    "Risk": "",
+    "Secondary": "Paper",
+    "Weight": 1
+  },
+  {
+    "Id": "grenier",
+    "Name": "Grenier",
+    "Risk": "",
+    "Secondary": "Ally",
+    "Weight": 1
+  },
+  {
+    "Id": "cuisines",
+    "Name": "Cuisines et dépendances",
+    "Risk": "",
+    "Secondary": "Ally",
+    "Weight": 1
+  },
+  {
+    "Id": "cave",
+    "Name": "Cave secrète",
+    "Risk": "",
+    "Secondary": "Ally",
+    "Weight": 1
+  }
+]

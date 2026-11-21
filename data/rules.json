@@ -1,0 +1,23 @@
+{
+  "RandomRoomDecks": true,
+  "AiPolicy": "varied-v1",
+  "DeclarationReward": 1,
+  "Rounds": 10,
+  "InitialCash": 10,
+  "InitialTax": 30,
+  "MinTax": 0,
+  "MaxTax": 70,
+  "SalesPerTurn": 2,
+  "NormalSalePercent": 50,
+  "BrokerSalePercent": 75,
+  "Exhaustion": "RejectChoice",
+  "TaxRounding": "Floor",
+  "TaxNegativeBase": false,
+  "AllowNegativeSwiss": true,
+  "SellAcquiredSameTurn": true,
+  "StackSkip": false,
+  "LockBlocksBurglary": false,
+  "SpecialPlacement": "HiddenThenActivate",
+  "ReactionPriority": "TargetChoosesOne",
+  "NotaryPriority": "RotatingSeatOrder"
+}

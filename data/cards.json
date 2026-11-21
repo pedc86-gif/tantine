@@ -1,0 +1,804 @@
+[
+  {
+    "Id": "argenterie",
+    "Name": "Argenterie familiale",
+    "Value": 5,
+    "Category": "Object",
+    "Effect": "",
+    "Description": "On la sortait pour les grandes occasions. Surtout pour compter les petites cuillères.",
+    "AssetId": "objects/argenterie"
+  },
+  {
+    "Id": "piano",
+    "Name": "Piano à queue",
+    "Value": 7,
+    "Category": "Object",
+    "Effect": "",
+    "Description": "Vingt ans de leçons. Son professeur avait fini par demander une mutation.",
+    "AssetId": "objects/piano"
+  },
+  {
+    "Id": "tapis",
+    "Name": "Tapis persan",
+    "Value": 6,
+    "Category": "Object",
+    "Effect": "",
+    "Description": "Il venait de Perse. Les taches de porto venaient de Tonton.",
+    "AssetId": "objects/tapis"
+  },
+  {
+    "Id": "porcelaine",
+    "Name": "Service en porcelaine",
+    "Value": 4,
+    "Category": "Object",
+    "Effect": "",
+    "Description": "Douze couverts. Onze invités autorisés à les toucher.",
+    "AssetId": "objects/porcelaine"
+  },
+  {
+    "Id": "vase",
+    "Name": "Vase de Chine",
+    "Value": 8,
+    "Category": "Object",
+    "Effect": "",
+    "Description": "Tantine y mettait des fleurs en plastique. Par prudence patrimoniale.",
+    "AssetId": "objects/vase"
+  },
+  {
+    "Id": "pendule",
+    "Name": "Pendule Louis XV",
+    "Value": 5,
+    "Category": "Object",
+    "Effect": "",
+    "Description": "Elle avançait de vingt minutes. Tantine n’a jamais été en retard sur un héritage.",
+    "AssetId": "objects/pendule"
+  },
+  {
+    "Id": "chandelier",
+    "Name": "Chandelier en argent",
+    "Value": 3,
+    "Category": "Object",
+    "Effect": "",
+    "Description": "L’argent brillait. Les conversations du dîner, beaucoup moins.",
+    "AssetId": "objects/chandelier"
+  },
+  {
+    "Id": "napperons",
+    "Name": "Collection de napperons",
+    "Value": 1,
+    "Category": "Object",
+    "Effect": "",
+    "Description": "Chaque meuble en portait un. Même ceux qui avaient déjà abandonné.",
+    "AssetId": "objects/napperons"
+  },
+  {
+    "Id": "fauteuil",
+    "Name": "Fauteuil infesté",
+    "Value": -3,
+    "Category": "Object",
+    "Effect": "",
+    "Description": "Il accueille toute la famille. Et plusieurs générations de locataires à six pattes.",
+    "AssetId": "objects/fauteuil"
+  },
+  {
+    "Id": "lustre",
+    "Name": "Lustre fissuré",
+    "Value": -6,
+    "Category": "Object",
+    "Effect": "",
+    "Description": "Il avait du cachet. Le plafond préférait garder ses distances.",
+    "AssetId": "objects/lustre"
+  },
+  {
+    "Id": "plume",
+    "Name": "Plume en or",
+    "Value": 8,
+    "Category": "Object",
+    "Effect": "",
+    "Description": "Elle servait à signer les chèques. Surtout ceux des autres.",
+    "AssetId": "objects/plume"
+  },
+  {
+    "Id": "montre",
+    "Name": "Montre de Tonton",
+    "Value": 11,
+    "Category": "Object",
+    "Effect": "",
+    "Description": "Tonton la remontait chaque soir. Sa crédibilité, beaucoup moins.",
+    "AssetId": "objects/montre"
+  },
+  {
+    "Id": "presse",
+    "Name": "Presse-papier en cristal",
+    "Value": 6,
+    "Category": "Object",
+    "Effect": "",
+    "Description": "Il maintenait les papiers en place. Pas les affaires de la famille.",
+    "AssetId": "objects/presse"
+  },
+  {
+    "Id": "coffret",
+    "Name": "Coffre miniature",
+    "Value": 13,
+    "Category": "Object",
+    "Effect": "",
+    "Description": "Un petit coffre pour de grands secrets. Et trois boutons de rechange.",
+    "AssetId": "objects/coffret"
+  },
+  {
+    "Id": "machine",
+    "Name": "Machine à écrire",
+    "Value": 5,
+    "Category": "Object",
+    "Effect": "",
+    "Description": "Elle n’écrivait que des lettres de réclamation. Par fidélité à sa propriétaire.",
+    "AssetId": "objects/machine"
+  },
+  {
+    "Id": "coupe",
+    "Name": "Coupe-papier en ivoire",
+    "Value": 9,
+    "Category": "Object",
+    "Effect": "",
+    "Description": "Ouvrait le courrier avec élégance. Les factures avec beaucoup moins d’enthousiasme.",
+    "AssetId": "objects/coupe"
+  },
+  {
+    "Id": "actions",
+    "Name": "Actions sans valeur",
+    "Value": -5,
+    "Category": "Object",
+    "Effect": "",
+    "Description": "Tantine croyait beaucoup à cette société. C’était bien la seule.",
+    "AssetId": "objects/actions"
+  },
+  {
+    "Id": "impayes",
+    "Name": "Dossier des impayés",
+    "Value": -7,
+    "Category": "Object",
+    "Effect": "",
+    "Description": "Les relances étaient classées par couleur. Le rouge dominait.",
+    "AssetId": "objects/impayes"
+  },
+  {
+    "Id": "urssaf",
+    "Name": "Redressement URSSAF",
+    "Value": -8,
+    "Category": "Object",
+    "Effect": "",
+    "Description": "Le jardinier était déclaré comme plante d’intérieur. Ils n’ont pas apprécié.",
+    "AssetId": "objects/urssaf"
+  },
+  {
+    "Id": "serrure",
+    "Name": "Serrure renforcée",
+    "Value": 0,
+    "Category": "Object",
+    "Effect": "lock",
+    "Description": "Installation automatique : bloque les chapardages. La confiance avait ses limites.",
+    "AssetId": "objects/serrure"
+  },
+  {
+    "Id": "collier",
+    "Name": "Collier de diamants",
+    "Value": 15,
+    "Category": "Object",
+    "Effect": "",
+    "Description": "Les diamants étaient vrais. Le récit de leur acquisition variait selon les invités.",
+    "AssetId": "objects/collier"
+  },
+  {
+    "Id": "bague",
+    "Name": "Bague de fiançailles",
+    "Value": 12,
+    "Category": "Object",
+    "Effect": "",
+    "Description": "Le diamant était éternel. Les fiançailles avaient tenu trois semaines.",
+    "AssetId": "objects/bague"
+  },
+  {
+    "Id": "portrait",
+    "Name": "Portrait de Tantine",
+    "Value": 8,
+    "Category": "Object",
+    "Effect": "",
+    "Description": "Le peintre avait flatté le modèle. Il tenait à être payé.",
+    "AssetId": "objects/portrait"
+  },
+  {
+    "Id": "bracelet",
+    "Name": "Bracelet de rubis",
+    "Value": 14,
+    "Category": "Object",
+    "Effect": "",
+    "Description": "Elle le portait pour recevoir. Surtout des compliments.",
+    "AssetId": "objects/bracelet"
+  },
+  {
+    "Id": "broche",
+    "Name": "Broche en émeraude",
+    "Value": 11,
+    "Category": "Object",
+    "Effect": "",
+    "Description": "Bijou de famille. On ignorait simplement de quelle famille.",
+    "AssetId": "objects/broche"
+  },
+  {
+    "Id": "chirurgien",
+    "Name": "Factures du chirurgien",
+    "Value": -9,
+    "Category": "Object",
+    "Effect": "",
+    "Description": "Le résultat était discret. Le montant beaucoup moins.",
+    "AssetId": "objects/chirurgien"
+  },
+  {
+    "Id": "chat",
+    "Name": "Testament du chat",
+    "Value": -6,
+    "Category": "Object",
+    "Effect": "",
+    "Description": "Le chat héritait du canapé. Vous héritez de son train de vie.",
+    "AssetId": "objects/chat"
+  },
+  {
+    "Id": "pensions",
+    "Name": "Pensions alimentaires oubliées",
+    "Value": -12,
+    "Category": "Object",
+    "Effect": "",
+    "Description": "Tantine n’avait jamais oublié. Elle espérait seulement que les autres oublieraient.",
+    "AssetId": "objects/pensions"
+  },
+  {
+    "Id": "mausolee",
+    "Name": "Contrat du mausolée",
+    "Value": -8,
+    "Category": "Object",
+    "Effect": "",
+    "Description": "Vue dégagée, marbre italien. Les charges courent déjà.",
+    "AssetId": "objects/mausolee"
+  },
+  {
+    "Id": "rembrandt",
+    "Name": "Rembrandt oublié",
+    "Value": 20,
+    "Category": "Object",
+    "Effect": "",
+    "Description": "Il cachait une tache d’humidité. L’humidité, elle, était authentique.",
+    "AssetId": "objects/rembrandt"
+  },
+  {
+    "Id": "malle",
+    "Name": "Malle de pièces d’or",
+    "Value": 16,
+    "Category": "Object",
+    "Effect": "",
+    "Description": "Tantine appelait ça son argent de poche. Elle avait de grandes poches.",
+    "AssetId": "objects/malle"
+  },
+  {
+    "Id": "sabre",
+    "Name": "Sabre japonais",
+    "Value": 11,
+    "Category": "Object",
+    "Effect": "",
+    "Description": "Souvenir d’un voyage. Ou d’un désaccord avec le guide.",
+    "AssetId": "objects/sabre"
+  },
+  {
+    "Id": "timbres",
+    "Name": "Collection de timbres",
+    "Value": 7,
+    "Category": "Object",
+    "Effect": "",
+    "Description": "Elle les léchait avant de savoir qu’ils valaient une fortune.",
+    "AssetId": "objects/timbres"
+  },
+  {
+    "Id": "edition",
+    "Name": "Première édition rare",
+    "Value": 13,
+    "Category": "Object",
+    "Effect": "",
+    "Description": "Jamais lue, donc impeccable. Comme beaucoup de livres de la bibliothèque.",
+    "AssetId": "objects/edition"
+  },
+  {
+    "Id": "rossignol",
+    "Name": "Rossignol",
+    "Value": 0,
+    "Category": "Object",
+    "Effect": "lockpick",
+    "Description": "Détruit une serrure adverse ; les deux sont défaussés. La clé était sous le paillasson.",
+    "AssetId": "objects/rossignol"
+  },
+  {
+    "Id": "statue",
+    "Name": "Statue hideuse",
+    "Value": -8,
+    "Category": "Object",
+    "Effect": "",
+    "Description": "Le sculpteur parlait d’audace. Les visiteurs parlaient de partir.",
+    "AssetId": "objects/statue"
+  },
+  {
+    "Id": "frigo",
+    "Name": "Vieux réfrigérateur",
+    "Value": -6,
+    "Category": "Object",
+    "Effect": "",
+    "Description": "Il ronfle plus fort que Tonton. Et conserve à peu près autant de souvenirs.",
+    "AssetId": "objects/frigo"
+  },
+  {
+    "Id": "amiante",
+    "Name": "Collection d’amiante",
+    "Value": -13,
+    "Category": "Object",
+    "Effect": "",
+    "Description": "Tantine gardait tout. Même ce que tout le monde faisait retirer.",
+    "AssetId": "objects/amiante"
+  },
+  {
+    "Id": "merules",
+    "Name": "Nid de mérules",
+    "Value": -11,
+    "Category": "Object",
+    "Effect": "",
+    "Description": "Enfin un héritage qui grandit tout seul. Malheureusement.",
+    "AssetId": "objects/merules"
+  },
+  {
+    "Id": "casseroles",
+    "Name": "Casseroles en cuivre",
+    "Value": 4,
+    "Category": "Object",
+    "Effect": "",
+    "Description": "Celles-ci étaient en cuivre. Les autres relevaient du secret de famille.",
+    "AssetId": "objects/casseroles"
+  },
+  {
+    "Id": "cru",
+    "Name": "Grand cru de 1947",
+    "Value": 9,
+    "Category": "Object",
+    "Effect": "",
+    "Description": "Elle le réservait aux invités importants. Elle n’en avait jamais trouvé suffisamment.",
+    "AssetId": "objects/cru"
+  },
+  {
+    "Id": "the",
+    "Name": "Service à thé",
+    "Value": 3,
+    "Category": "Object",
+    "Effect": "",
+    "Description": "Une tasse suffit pour juger quelqu’un. Tantine en possédait douze.",
+    "AssetId": "objects/the"
+  },
+  {
+    "Id": "cafe",
+    "Name": "Machine à café",
+    "Value": 2,
+    "Category": "Object",
+    "Effect": "",
+    "Description": "Elle réveillait tout le manoir. Le café était facultatif.",
+    "AssetId": "objects/cafe"
+  },
+  {
+    "Id": "couteau",
+    "Name": "Couteau du chef",
+    "Value": 5,
+    "Category": "Object",
+    "Effect": "",
+    "Description": "Le chef le réclamait encore. Tantine invoquait le droit du propriétaire.",
+    "AssetId": "objects/couteau"
+  },
+  {
+    "Id": "fromage",
+    "Name": "Cave à fromage",
+    "Value": 6,
+    "Category": "Object",
+    "Effect": "",
+    "Description": "On en connaissait la valeur avant même d’ouvrir la porte.",
+    "AssetId": "objects/fromage"
+  },
+  {
+    "Id": "confitures",
+    "Name": "Collection de confitures",
+    "Value": 1,
+    "Category": "Object",
+    "Effect": "",
+    "Description": "Tous les fruits du jardin. Et quelques millésimes inquiétants.",
+    "AssetId": "objects/confitures"
+  },
+  {
+    "Id": "conserves",
+    "Name": "Stock de conserves",
+    "Value": -2,
+    "Category": "Object",
+    "Effect": "",
+    "Description": "Prévues pour le siège du manoir. Lequel n’a jamais eu lieu.",
+    "AssetId": "objects/conserves"
+  },
+  {
+    "Id": "congelateur",
+    "Name": "Vieux congélateur",
+    "Value": -3,
+    "Category": "Object",
+    "Effect": "",
+    "Description": "Personne n’a osé regarder au fond. Pas même le notaire.",
+    "AssetId": "objects/congelateur"
+  },
+  {
+    "Id": "lingot",
+    "Name": "Lingot d’or",
+    "Value": 25,
+    "Category": "Object",
+    "Effect": "",
+    "Description": "Un simple presse-papier, disait-elle. Très lourd à expliquer au fisc.",
+    "AssetId": "objects/lingot"
+  },
+  {
+    "Id": "tresor",
+    "Name": "Trésor de l’oncle disparu",
+    "Value": 22,
+    "Category": "Object",
+    "Effect": "",
+    "Description": "L’oncle n’est jamais revenu. Les pièces se portent très bien.",
+    "AssetId": "objects/tresor"
+  },
+  {
+    "Id": "caisse",
+    "Name": "Caisse de grands crus",
+    "Value": 16,
+    "Category": "Object",
+    "Effect": "",
+    "Description": "À ouvrir pour une grande occasion. Un partage équitable n’en est pas une.",
+    "AssetId": "objects/caisse"
+  },
+  {
+    "Id": "pierres",
+    "Name": "Coffre aux pierres précieuses",
+    "Value": 20,
+    "Category": "Object",
+    "Effect": "",
+    "Description": "Tantine disait aimer les cailloux. Le joaillier comprenait très bien.",
+    "AssetId": "objects/pierres"
+  },
+  {
+    "Id": "obligations",
+    "Name": "Obligations au porteur",
+    "Value": 13,
+    "Category": "Object",
+    "Effect": "",
+    "Description": "Au porteur. Tantine vérifiait donc très soigneusement qui les portait.",
+    "AssetId": "objects/obligations"
+  },
+  {
+    "Id": "cigares",
+    "Name": "Stock de cigares cubains",
+    "Value": 10,
+    "Category": "Object",
+    "Effect": "",
+    "Description": "Tonton les gardait pour ses vieux jours. Il avait commencé très tôt.",
+    "AssetId": "objects/cigares"
+  },
+  {
+    "Id": "antiques",
+    "Name": "Collection de pièces antiques",
+    "Value": 15,
+    "Category": "Object",
+    "Effect": "",
+    "Description": "Deux mille ans d’histoire. Tantine exigeait quand même un reçu.",
+    "AssetId": "objects/antiques"
+  },
+  {
+    "Id": "radioactif",
+    "Name": "Déchets radioactifs",
+    "Value": -25,
+    "Category": "Object",
+    "Effect": "",
+    "Description": "Ça brillait dans le noir. Tantine trouvait ça pratique pour la cave.",
+    "AssetId": "objects/radioactif"
+  },
+  {
+    "Id": "dettes",
+    "Name": "Dettes de jeu",
+    "Value": -20,
+    "Category": "Object",
+    "Effect": "",
+    "Description": "Elle disait toujours doubler la mise. Le notaire a doublé les vérifications.",
+    "AssetId": "objects/dettes"
+  },
+  {
+    "Id": "cercueil",
+    "Name": "Cercueil de rechange",
+    "Value": -18,
+    "Category": "Object",
+    "Effect": "",
+    "Description": "Acheté en promotion. Tantine détestait laisser passer une bonne affaire.",
+    "AssetId": "objects/cercueil"
+  },
+  {
+    "Id": "declaration",
+    "Name": "Déclaration de succession",
+    "Category": "Paper",
+    "Effect": "declare",
+    "Amount": 0,
+    "Description": "Déclarez vos objets escamotés. +1 pièce pour au moins un objet positif, une fois par manche.",
+    "Hostile": false,
+    "Reaction": false,
+    "TargetModel": "",
+    "AssetId": "papers/declaration"
+  },
+  {
+    "Id": "abattement",
+    "Name": "Abattement fiscal",
+    "Category": "Paper",
+    "Effect": "tax",
+    "Amount": -10,
+    "Description": "Votre taux baisse de 10 points.",
+    "Hostile": false,
+    "Reaction": false,
+    "TargetModel": "",
+    "AssetId": "papers/abattement"
+  },
+  {
+    "Id": "redressement",
+    "Name": "Redressement fiscal",
+    "Category": "Paper",
+    "Effect": "tax",
+    "Amount": 15,
+    "Description": "Le taux adverse augmente de 15 points.",
+    "Hostile": true,
+    "Reaction": false,
+    "TargetModel": "",
+    "AssetId": "papers/redressement"
+  },
+  {
+    "Id": "controle",
+    "Name": "Contrôle fiscal",
+    "Category": "Paper",
+    "Effect": "audit",
+    "Amount": 10,
+    "Description": "Déclare toute la pile escamotée adverse et augmente son taux de 10 points.",
+    "Hostile": true,
+    "Reaction": false,
+    "TargetModel": "",
+    "AssetId": "papers/controle"
+  },
+  {
+    "Id": "suisse1",
+    "Name": "Compte en Suisse — 1 objet",
+    "Category": "Paper",
+    "Effect": "swiss",
+    "Amount": 1,
+    "Description": "Protège et exonère jusqu’à 1 objet(s).",
+    "Hostile": false,
+    "Reaction": false,
+    "TargetModel": "",
+    "AssetId": "papers/suisse1"
+  },
+  {
+    "Id": "suisse2",
+    "Name": "Compte en Suisse — 2 objets",
+    "Category": "Paper",
+    "Effect": "swiss",
+    "Amount": 2,
+    "Description": "Protège et exonère jusqu’à 2 objet(s).",
+    "Hostile": false,
+    "Reaction": false,
+    "TargetModel": "",
+    "AssetId": "papers/suisse2"
+  },
+  {
+    "Id": "suisse3",
+    "Name": "Compte en Suisse — 3 objets",
+    "Category": "Paper",
+    "Effect": "swiss",
+    "Amount": 3,
+    "Description": "Protège et exonère jusqu’à 3 objet(s).",
+    "Hostile": false,
+    "Reaction": false,
+    "TargetModel": "",
+    "AssetId": "papers/suisse3"
+  },
+  {
+    "Id": "testament_collier",
+    "Name": "Testament — Collier",
+    "Category": "Paper",
+    "Effect": "claim",
+    "Amount": 0,
+    "Description": "Revendique cet objet déclaré, même chez le notaire.",
+    "Hostile": true,
+    "Reaction": false,
+    "TargetModel": "collier",
+    "AssetId": "papers/testament_collier"
+  },
+  {
+    "Id": "testament_bague",
+    "Name": "Testament — Bague",
+    "Category": "Paper",
+    "Effect": "claim",
+    "Amount": 0,
+    "Description": "Revendique cet objet déclaré, même chez le notaire.",
+    "Hostile": true,
+    "Reaction": false,
+    "TargetModel": "bague",
+    "AssetId": "papers/testament_bague"
+  },
+  {
+    "Id": "testament_portrait",
+    "Name": "Testament — Tableau",
+    "Category": "Paper",
+    "Effect": "claim",
+    "Amount": 0,
+    "Description": "Revendique cet objet déclaré, même chez le notaire.",
+    "Hostile": true,
+    "Reaction": false,
+    "TargetModel": "portrait",
+    "AssetId": "papers/testament_portrait"
+  },
+  {
+    "Id": "testament_montre",
+    "Name": "Testament — Montre",
+    "Category": "Paper",
+    "Effect": "claim",
+    "Amount": 0,
+    "Description": "Revendique cet objet déclaré, même chez le notaire.",
+    "Hostile": true,
+    "Reaction": false,
+    "TargetModel": "montre",
+    "AssetId": "papers/testament_montre"
+  },
+  {
+    "Id": "testament_argenterie",
+    "Name": "Testament — Argenterie",
+    "Category": "Paper",
+    "Effect": "claim",
+    "Amount": 0,
+    "Description": "Revendique cet objet déclaré, même chez le notaire.",
+    "Hostile": true,
+    "Reaction": false,
+    "TargetModel": "argenterie",
+    "AssetId": "papers/testament_argenterie"
+  },
+  {
+    "Id": "lettre",
+    "Name": "Lettre compromettante",
+    "Category": "Paper",
+    "Effect": "skip",
+    "Amount": 1,
+    "Description": "La cible passe entièrement son prochain tour.",
+    "Hostile": true,
+    "Reaction": false,
+    "TargetModel": "",
+    "AssetId": "papers/lettre"
+  },
+  {
+    "Id": "assurance",
+    "Name": "Assurance décès",
+    "Category": "Paper",
+    "Effect": "insurance",
+    "Amount": 0,
+    "Description": "Réaction : annule un Papier hostile vous ciblant.",
+    "Hostile": false,
+    "Reaction": true,
+    "TargetModel": "",
+    "AssetId": "papers/assurance"
+  },
+  {
+    "Id": "procuration",
+    "Name": "Procuration générale",
+    "Category": "Paper",
+    "Effect": "replay",
+    "Amount": 0,
+    "Description": "Rejoue un Papier de votre défausse puis le retire du jeu.",
+    "Hostile": false,
+    "Reaction": false,
+    "TargetModel": "",
+    "AssetId": "papers/procuration"
+  },
+  {
+    "Id": "erreur",
+    "Name": "Erreur de classement",
+    "Category": "Paper",
+    "Effect": "swap",
+    "Amount": 0,
+    "Description": "Échange un objet escamoté choisi contre un objet escamoté adverse aléatoire.",
+    "Hostile": true,
+    "Reaction": false,
+    "TargetModel": "",
+    "AssetId": "papers/erreur"
+  },
+  {
+    "Id": "chapardeur",
+    "Name": "Chapardeur",
+    "Category": "Ally",
+    "Cost": 2,
+    "Effect": "steal",
+    "Description": "Vole au hasard un objet escamoté adverse.",
+    "Hostile": true,
+    "Reaction": false,
+    "AssetId": "allies/chapardeur"
+  },
+  {
+    "Id": "cambrioleur",
+    "Name": "Cambrioleur",
+    "Category": "Ally",
+    "Cost": 5,
+    "Effect": "burglary",
+    "Description": "Révèle au voleur jusqu’à trois objets escamotés adverses ; il en choisit un.",
+    "Hostile": true,
+    "Reaction": false,
+    "AssetId": "allies/cambrioleur"
+  },
+  {
+    "Id": "faussaire",
+    "Name": "Faussaire",
+    "Category": "Ally",
+    "Cost": 6,
+    "Effect": "claim",
+    "Description": "Revendique tout objet déclaré adverse pendant la partie.",
+    "Hostile": true,
+    "Reaction": false,
+    "AssetId": "allies/faussaire"
+  },
+  {
+    "Id": "homme",
+    "Name": "Homme de main",
+    "Category": "Ally",
+    "Cost": 4,
+    "Effect": "bodyguard",
+    "Description": "Réaction : annule une action hostile sans remboursement.",
+    "Hostile": false,
+    "Reaction": true,
+    "AssetId": "allies/homme"
+  },
+  {
+    "Id": "chien",
+    "Name": "Chien de garde",
+    "Category": "Ally",
+    "Cost": 0,
+    "Effect": "dog",
+    "Description": "Réaction : annule un vol et rembourse la moitié du coût, arrondie au supérieur.",
+    "Hostile": false,
+    "Reaction": true,
+    "AssetId": "allies/chien"
+  },
+  {
+    "Id": "brocanteur",
+    "Name": "Brocanteur véreux",
+    "Category": "Ally",
+    "Cost": 1,
+    "Effect": "broker",
+    "Description": "Vend un objet à 75 % de sa valeur, arrondi au inférieur.",
+    "Hostile": false,
+    "Reaction": false,
+    "AssetId": "allies/brocanteur"
+  },
+  {
+    "Id": "avocat",
+    "Name": "Avocat véreux",
+    "Category": "Ally",
+    "Cost": 5,
+    "Effect": "lawyer",
+    "Description": "Réaction : annule une revendication pendant la partie.",
+    "Hostile": false,
+    "Reaction": true,
+    "AssetId": "allies/avocat"
+  },
+  {
+    "Id": "pickpocket",
+    "Name": "Pickpocket",
+    "Category": "Ally",
+    "Cost": 3,
+    "Effect": "pickpocket",
+    "Description": "Vole au hasard un Papier dans la main adverse.",
+    "Hostile": true,
+    "Reaction": false,
+    "AssetId": "allies/pickpocket"
+  }
+]

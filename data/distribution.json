@@ -1,0 +1,398 @@
+[
+  {
+    "Model": "argenterie",
+    "Room": "salon",
+    "Copies": 2
+  },
+  {
+    "Model": "piano",
+    "Room": "salon",
+    "Copies": 2
+  },
+  {
+    "Model": "tapis",
+    "Room": "salon",
+    "Copies": 2
+  },
+  {
+    "Model": "porcelaine",
+    "Room": "salon",
+    "Copies": 2
+  },
+  {
+    "Model": "vase",
+    "Room": "salon",
+    "Copies": 1
+  },
+  {
+    "Model": "pendule",
+    "Room": "salon",
+    "Copies": 2
+  },
+  {
+    "Model": "chandelier",
+    "Room": "salon",
+    "Copies": 2
+  },
+  {
+    "Model": "napperons",
+    "Room": "salon",
+    "Copies": 2
+  },
+  {
+    "Model": "fauteuil",
+    "Room": "salon",
+    "Copies": 2
+  },
+  {
+    "Model": "lustre",
+    "Room": "salon",
+    "Copies": 1
+  },
+  {
+    "Model": "plume",
+    "Room": "bureau",
+    "Copies": 2
+  },
+  {
+    "Model": "montre",
+    "Room": "bureau",
+    "Copies": 1
+  },
+  {
+    "Model": "presse",
+    "Room": "bureau",
+    "Copies": 2
+  },
+  {
+    "Model": "coffret",
+    "Room": "bureau",
+    "Copies": 1
+  },
+  {
+    "Model": "machine",
+    "Room": "bureau",
+    "Copies": 2
+  },
+  {
+    "Model": "coupe",
+    "Room": "bureau",
+    "Copies": 2
+  },
+  {
+    "Model": "actions",
+    "Room": "bureau",
+    "Copies": 2
+  },
+  {
+    "Model": "impayes",
+    "Room": "bureau",
+    "Copies": 2
+  },
+  {
+    "Model": "urssaf",
+    "Room": "bureau",
+    "Copies": 1
+  },
+  {
+    "Model": "serrure",
+    "Room": "bureau",
+    "Copies": 2
+  },
+  {
+    "Model": "collier",
+    "Room": "chambre",
+    "Copies": 1
+  },
+  {
+    "Model": "bague",
+    "Room": "chambre",
+    "Copies": 1
+  },
+  {
+    "Model": "portrait",
+    "Room": "chambre",
+    "Copies": 2
+  },
+  {
+    "Model": "bracelet",
+    "Room": "chambre",
+    "Copies": 1
+  },
+  {
+    "Model": "broche",
+    "Room": "chambre",
+    "Copies": 2
+  },
+  {
+    "Model": "chirurgien",
+    "Room": "chambre",
+    "Copies": 2
+  },
+  {
+    "Model": "chat",
+    "Room": "chambre",
+    "Copies": 2
+  },
+  {
+    "Model": "pensions",
+    "Room": "chambre",
+    "Copies": 2
+  },
+  {
+    "Model": "mausolee",
+    "Room": "chambre",
+    "Copies": 1
+  },
+  {
+    "Model": "serrure",
+    "Room": "chambre",
+    "Copies": 2
+  },
+  {
+    "Model": "rembrandt",
+    "Room": "grenier",
+    "Copies": 1
+  },
+  {
+    "Model": "malle",
+    "Room": "grenier",
+    "Copies": 1
+  },
+  {
+    "Model": "sabre",
+    "Room": "grenier",
+    "Copies": 2
+  },
+  {
+    "Model": "timbres",
+    "Room": "grenier",
+    "Copies": 2
+  },
+  {
+    "Model": "edition",
+    "Room": "grenier",
+    "Copies": 2
+  },
+  {
+    "Model": "rossignol",
+    "Room": "grenier",
+    "Copies": 2
+  },
+  {
+    "Model": "statue",
+    "Room": "grenier",
+    "Copies": 2
+  },
+  {
+    "Model": "frigo",
+    "Room": "grenier",
+    "Copies": 2
+  },
+  {
+    "Model": "amiante",
+    "Room": "grenier",
+    "Copies": 1
+  },
+  {
+    "Model": "merules",
+    "Room": "grenier",
+    "Copies": 1
+  },
+  {
+    "Model": "casseroles",
+    "Room": "cuisines",
+    "Copies": 2
+  },
+  {
+    "Model": "cru",
+    "Room": "cuisines",
+    "Copies": 1
+  },
+  {
+    "Model": "the",
+    "Room": "cuisines",
+    "Copies": 2
+  },
+  {
+    "Model": "cafe",
+    "Room": "cuisines",
+    "Copies": 2
+  },
+  {
+    "Model": "couteau",
+    "Room": "cuisines",
+    "Copies": 2
+  },
+  {
+    "Model": "fromage",
+    "Room": "cuisines",
+    "Copies": 2
+  },
+  {
+    "Model": "confitures",
+    "Room": "cuisines",
+    "Copies": 2
+  },
+  {
+    "Model": "conserves",
+    "Room": "cuisines",
+    "Copies": 2
+  },
+  {
+    "Model": "congelateur",
+    "Room": "cuisines",
+    "Copies": 1
+  },
+  {
+    "Model": "rossignol",
+    "Room": "cuisines",
+    "Copies": 2
+  },
+  {
+    "Model": "lingot",
+    "Room": "cave",
+    "Copies": 1
+  },
+  {
+    "Model": "tresor",
+    "Room": "cave",
+    "Copies": 1
+  },
+  {
+    "Model": "caisse",
+    "Room": "cave",
+    "Copies": 2
+  },
+  {
+    "Model": "pierres",
+    "Room": "cave",
+    "Copies": 1
+  },
+  {
+    "Model": "obligations",
+    "Room": "cave",
+    "Copies": 2
+  },
+  {
+    "Model": "cigares",
+    "Room": "cave",
+    "Copies": 2
+  },
+  {
+    "Model": "antiques",
+    "Room": "cave",
+    "Copies": 1
+  },
+  {
+    "Model": "radioactif",
+    "Room": "cave",
+    "Copies": 2
+  },
+  {
+    "Model": "dettes",
+    "Room": "cave",
+    "Copies": 2
+  },
+  {
+    "Model": "cercueil",
+    "Room": "cave",
+    "Copies": 1
+  },
+  {
+    "Model": "declaration",
+    "Copies": 13
+  },
+  {
+    "Model": "abattement",
+    "Copies": 7
+  },
+  {
+    "Model": "redressement",
+    "Copies": 5
+  },
+  {
+    "Model": "controle",
+    "Copies": 5
+  },
+  {
+    "Model": "suisse1",
+    "Copies": 3
+  },
+  {
+    "Model": "suisse2",
+    "Copies": 3
+  },
+  {
+    "Model": "suisse3",
+    "Copies": 2
+  },
+  {
+    "Model": "testament_collier",
+    "Copies": 2
+  },
+  {
+    "Model": "testament_bague",
+    "Copies": 2
+  },
+  {
+    "Model": "testament_portrait",
+    "Copies": 2
+  },
+  {
+    "Model": "testament_montre",
+    "Copies": 2
+  },
+  {
+    "Model": "testament_argenterie",
+    "Copies": 2
+  },
+  {
+    "Model": "lettre",
+    "Copies": 4
+  },
+  {
+    "Model": "assurance",
+    "Copies": 4
+  },
+  {
+    "Model": "procuration",
+    "Copies": 3
+  },
+  {
+    "Model": "erreur",
+    "Copies": 5
+  },
+  {
+    "Model": "chapardeur",
+    "Copies": 8
+  },
+  {
+    "Model": "cambrioleur",
+    "Copies": 5
+  },
+  {
+    "Model": "faussaire",
+    "Copies": 3
+  },
+  {
+    "Model": "homme",
+    "Copies": 5
+  },
+  {
+    "Model": "chien",
+    "Copies": 6
+  },
+  {
+    "Model": "brocanteur",
+    "Copies": 3
+  },
+  {
+    "Model": "avocat",
+    "Copies": 2
+  },
+  {
+    "Model": "pickpocket",
+    "Copies": 4
+  }
+]

@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: merci-tantine
+    runtime: docker
+    plan: starter
+    healthCheckPath: /health
+    numInstances: 1
+    envVars:
+      - key: SAVE_DIRECTORY
+        value: /var/data/merci-tantine
+    disk:
+      name: parties
+      mountPath: /var/data
+      sizeGB: 1
