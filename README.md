@@ -4,9 +4,11 @@ Serveur autoritaire du jeu Merci Tantine, en ASP.NET Core / .NET 10. Ce dépôt 
 
 ## Créer le service Render
 
-Dans Render, créer un **Blueprint** depuis ce dépôt, branche `main`. Le fichier [render.yaml](render.yaml) configure Docker, le contrôle de santé `/health`, une seule instance et le stockage persistant des parties.
+Dans Render, créer un **Blueprint** depuis ce dépôt, branche `main`. Le fichier [render.yaml](render.yaml) configure Docker, le contrôle de santé `/health` et une seule instance **Free**, sans disque ni base de données payants.
 
-Le Blueprint utilise une instance Starter et un disque de 1 Go : vérifier leur tarification dans Render avant création. Après déploiement, ouvrir `https://VOTRE-SERVICE.onrender.com/health` : la réponse attendue est `{"status":"ok","protocol":1}`. Communiquer ensuite l’URL HTTPS du service, sans `/health`, pour le paramétrage par défaut du client.
+Après déploiement, ouvrir `https://VOTRE-SERVICE.onrender.com/health` : la réponse attendue est `{"status":"ok","protocol":1}`. Communiquer ensuite l’URL HTTPS du service, sans `/health`, pour le paramétrage par défaut du client.
+
+**Limites de l’offre gratuite :** mise en veille après 15 minutes sans requête, réveil pouvant prendre environ une minute et perte des salles/parties lors d’une mise en veille, d’un redémarrage Render ou d’un redéploiement. Les fichiers sont temporaires (`/tmp/merci-tantine`). Une coupure du client permet de reprendre tant que le serveur conserve ses fichiers. Les quotas gratuits Render s’appliquent ; voir [les conditions de l’offre Free](https://render.com/docs/free). Cette version convient aux essais, sans garantie de conservation des parties.
 
 Le client Godot PC actuel joue en local ; sa connexion au serveur reste à intégrer. Le protocole existant est utilisé par le client MAUI Android historique. Aucun client graphique ni adresse de serveur fictive ne sont publiés ici.
 
